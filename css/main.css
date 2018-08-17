@@ -96,6 +96,11 @@ section > div p {
   width: 60%;
 }
 
+/*centers images*/
+.carousel-inner {
+  margin:auto;
+}
+
 .img-wrap {
   height: 450px;
 }
@@ -211,4 +216,12 @@ body > footer {
 .next-button p {
 	font-weight: normal;
 	margin: 3% 0;
+}
+
+@media (max-width: 750px) {
+
+}
+
+@media (max-width: 525px) {
+  
 }
